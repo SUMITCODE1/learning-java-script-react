@@ -49,3 +49,14 @@ class god{
 const shiva=new god('shiva',100);
 shiva.Speak();
 console.log(shiva);
+
+const arr1=['sumit','arun','subodh'];
+const arr2=['thakur','singh','rajput'];
+let arr=[];
+arr=arr.concat(arr1);
+arr.push('title');
+arr=arr.concat(arr2);
+console.log(...arr);
+//spred method
+const array=[...arr1,'title',...arr2];
+console.log(...array);
