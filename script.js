@@ -35,3 +35,17 @@ sumit.speak();
 console.log(sumit);
 console.log(sumit.name);
 console.log(sumit.age);
+
+class god{
+    constructor(name,age){
+        this.name=name;
+        this.age=age;
+    }
+    Speak(){
+        console.log("sumit become the ceo of the tcs");
+    }
+
+}
+const shiva=new god('shiva',100);
+shiva.Speak();
+console.log(shiva);
